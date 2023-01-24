@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1674564048242,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674564190675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,8 +285,23 @@\n <!-- Footer - bloc-8 END -->\n \n </div>\n <!-- Principal conteneur END -->\n-    \n+    <!-- Scripts -->\n \n+\n+\t<script defer src=\"https://code.jquery.com/jquery-3.6.3.slim.min.js\" integrity=\"sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=\" crossorigin=\"anonymous\"></script>\n+\t<script defer src=\"js/blocs.min.js\"></script>\n+\t<script defer src=\"js/jquery.touchSwipe.min.js\"></script>\n+\t<script defer src=\"js/bootstrap.min.js\"></script>\n+\n+\t<!-- Google tag (gtag.js) -->\n+\t<script defer src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\" SameSite=None></script>\n+\t<script>\n+\twindow.dataLayer = window.dataLayer || [];\n+\tfunction gtag(){dataLayer.push(arguments);}\n+\tgtag('js', new Date());\n+\tgtag('config', 'UA-9624825-3');\n+\t</script>\n+\n </body>\n </html>\n"
                 }
             ],
             "date": 1674564048242,
